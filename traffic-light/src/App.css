@@ -1,0 +1,53 @@
+.container{
+ width: 100vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.bar{
+  background-color: black;
+  width: 20px;
+  height: 100px;
+}
+
+.body{
+  background-color: black;
+  width: 200px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.red{
+    margin: auto;
+    margin-top: 25px;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    list-style: none;
+}
+
+.yellow{
+    margin: auto;
+    margin-top: 5px;
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    list-style: none;
+}
+
+.green{
+    margin: auto;
+    margin-top: 5px;
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    list-style: none;
+}
+.on{
+    box-shadow:white 0px 0px 50px 20px;
+}
